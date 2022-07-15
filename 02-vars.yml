@@ -58,7 +58,9 @@
         OUTPUT: "{{OUT.stdout}}"
 
     - name: Print Output of shell command
-        ansible.builtin.debug:
-          msg: "{{OUTPUT}}"
+      ansible.builtin.debug:
+        msg: "{{OUTPUT}}"
+
+
 
 
